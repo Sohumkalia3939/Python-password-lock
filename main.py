@@ -1,0 +1,21 @@
+import random
+
+f = open("pywhatkit_dbs.txt", "a")
+client=input("Please enter client name:")
+f.write("\n client name:"+client)
+f.close()
+disease=input("Enter issue:")
+f = open("pywhatkit_dbs.txt", "a")
+f.write("\n disease:"+disease)
+f.close()
+f = open("pywhatkit_dbs.txt", "a")
+medicene=input("Dava kause lene hai:")
+f.write("\n medicene:"+medicene)
+f.close()
+f = open("pywhatkit_dbs.txt", "a")
+payment=input("\n Payment Method:")
+f.write("\n Payment Method:"+payment)
+f.close()
+f = open("pywhatkit_dbs.txt", "r")
+print(f.read())
+
